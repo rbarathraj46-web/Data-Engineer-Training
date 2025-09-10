@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "68c132c277976e19245b47fb"
+  },
+  "first_name": "Amit",
+  "last_name": "Verma",
+  "age": 28,
+  "department": "IT",
+  "salary": 60500.00000000001
+},
+{
+  "_id": {
+    "$oid": "68c132c277976e19245b47fc"
+  },
+  "first_name": "Sneha",
+  "last_name": "Reddy",
+  "age": 32,
+  "department": "HR",
+  "salary": 60000
+},
+{
+  "_id": {
+    "$oid": "68c132c277976e19245b47fd"
+  },
+  "first_name": "Ravi",
+  "last_name": "Sharma",
+  "age": 26,
+  "department": "Fianance",
+  "salary": 48000
+},
+{
+  "_id": {
+    "$oid": "68c132c277976e19245b47fe"
+  },
+  "first_name": "Pooja",
+  "last_name": "Iyer",
+  "age": 29,
+  "department": "Marketing",
+  "salary": 52000
+},
+{
+  "_id": {
+    "$oid": "68c132c277976e19245b47ff"
+  },
+  "first_name": "Arjun",
+  "last_name": "Mehta",
+  "age": 35,
+  "department": "IT",
+  "salary": 82500
+},
+{
+  "_id": {
+    "$oid": "68c132c277976e19245b4800"
+  },
+  "first_name": "Divya",
+  "last_name": "Nair",
+  "age": 30,
+  "department": "Operations",
+  "salary": 50000
+},
+{
+  "_id": {
+    "$oid": "68c132c277976e19245b4801"
+  },
+  "first_name": "Rahul",
+  "last_name": "Kapoor",
+  "age": 41,
+  "department": "IT",
+  "salary": 100100.00000000001
+},
+{
+  "_id": {
+    "$oid": "68c132c277976e19245b4803"
+  },
+  "first_name": "Vikram",
+  "last_name": "Rao",
+  "age": 37,
+  "department": "Marketing",
+  "salary": 68000
+},
+{
+  "_id": {
+    "$oid": "68c132c277976e19245b4804"
+  },
+  "first_name": "Neha",
+  "last_name": "Kulkarni",
+  "age": 33,
+  "department": "HR",
+  "salary": 58500
+}]

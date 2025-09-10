@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "68c1345177976e19245b4805"
+  },
+  "dept_name": "IT",
+  "location": "Bangalore"
+},
+{
+  "_id": {
+    "$oid": "68c1345177976e19245b4806"
+  },
+  "dept_name": "HR",
+  "location": "Hyderabad"
+},
+{
+  "_id": {
+    "$oid": "68c1345177976e19245b4807"
+  },
+  "dept_name": "Finance",
+  "location": "Mumbai"
+},
+{
+  "_id": {
+    "$oid": "68c1345177976e19245b4808"
+  },
+  "dept_name": "Marketing",
+  "location": "Delhi"
+},
+{
+  "_id": {
+    "$oid": "68c1345177976e19245b4809"
+  },
+  "dept_name": "Operations",
+  "location": "Chennai"
+},
+{
+  "_id": {
+    "$oid": "68c1345177976e19245b480a"
+  },
+  "dept_name": "R&D",
+  "location": "Pune"
+}]
