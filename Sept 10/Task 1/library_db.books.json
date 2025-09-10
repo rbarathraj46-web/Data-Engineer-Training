@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "68c15a30cb55beb628334959"
+  },
+  "title": "The Alchemist",
+  "author": "Paulo Coelho",
+  "genre": "Fiction",
+  "year": 1993,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "68c15a30cb55beb62833495a"
+  },
+  "title": "Clean Code",
+  "author": "Robert C. Martin",
+  "genre": "Programming",
+  "year": 2008,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "68c15a30cb55beb62833495d"
+  },
+  "title": "Atomic Habits",
+  "author": "James Clear",
+  "genre": "Self-Help",
+  "year": 1993,
+  "available": false
+}]
