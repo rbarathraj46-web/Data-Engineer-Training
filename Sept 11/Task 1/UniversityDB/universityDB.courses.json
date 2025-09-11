@@ -1,0 +1,24 @@
+[{
+  "_id": 101,
+  "title": "Database Systems",
+  "department": "CS",
+  "credits": 4
+},
+{
+  "_id": 102,
+  "title": "Data Structures",
+  "department": "CS",
+  "credits": 3
+},
+{
+  "_id": 103,
+  "title": "Economics 101",
+  "department": "Economics",
+  "credits": 2
+},
+{
+  "_id": 104,
+  "title": "Operating Systems",
+  "department": "CS",
+  "credits": 4
+}]
