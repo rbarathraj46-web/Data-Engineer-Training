@@ -1,0 +1,73 @@
+use smarthome_db;
+switched to db smarthome_db
+db.sensor_logs.insertMany([
+  {
+    device_id: 1,
+    timestamp: ISODate("2025-09-15T08:00:00Z"),
+    power_watts: 120,
+    energy_kwh: 0.3,
+    status: "ON"
+  },
+  {
+    device_id: 2,
+    timestamp: ISODate("2025-09-15T09:00:00Z"),
+    power_watts: 40,
+    energy_kwh: 0.05,
+    status: "OFF"
+  },
+  {
+    device_id: 3,
+    timestamp: ISODate("2025-09-15T09:30:00Z"),
+    power_watts: 1500,
+    energy_kwh: 1.2,
+    status: "ON"
+  },
+  {
+    device_id: 4,
+    timestamp: ISODate("2025-09-15T10:00:00Z"),
+    power_watts: 200,
+    energy_kwh: 0.8,
+    status: "ON"
+  }
+]);
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('68c83f8c067b7b49a4ddf20d'),
+    '1': ObjectId('68c83f8c067b7b49a4ddf20e'),
+    '2': ObjectId('68c83f8c067b7b49a4ddf20f'),
+    '3': ObjectId('68c83f8c067b7b49a4ddf210')
+  }
+}
+db.sensor_logs.createIndex({ device_id: 1 });
+device_id_1
+db.sensor_logs.createIndex({ timestamp: 1 });
+timestamp_1
+db.sensor_logs.find({ device_id: 3 });
+{
+  _id: ObjectId('68c83f8c067b7b49a4ddf20f'),
+  device_id: 3,
+  timestamp: 2025-09-15T09:30:00.000Z,
+  power_watts: 1500,
+  energy_kwh: 1.2,
+  status: 'ON'
+}
+db.sensor_logs.find({
+  timestamp: { $gte: ISODate("2025-09-15T09:00:00Z"), $lte: ISODate("2025-09-15T12:00:00Z") }
+});
+{
+  _id: ObjectId('68c83f8c067b7b49a4ddf20e'),
+  device_id: 2,
+  timestamp: 2025-09-15T09:00:00.000Z,
+  power_watts: 40,
+  energy_kwh: 0.05,
+  status: 'OFF'
+}
+{
+  _id: ObjectId('68c83f8c067b7b49a4ddf20f'),
+  device_id: 3,
+  timestamp: 2025-09-15T09:30:00.000Z,
+  power_watts: 1500,
+  energy_kwh: 1.2,
+  status: 'ON'
+}
