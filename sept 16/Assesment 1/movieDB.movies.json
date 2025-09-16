@@ -1,0 +1,28 @@
+[{
+  "_id": 101,
+  "title": "Inception",
+  "genre": "Sci-Fi",
+  "year": 2010,
+  "rating": 8.8
+},
+{
+  "_id": 103,
+  "title": "Bahubali",
+  "genre": "Action",
+  "year": 2015,
+  "rating": 8.3
+},
+{
+  "_id": 104,
+  "title": "The Dark Knight",
+  "genre": "Action",
+  "year": 2008,
+  "rating": 9
+},
+{
+  "_id": 105,
+  "title": "Dangal",
+  "genre": "Drama",
+  "year": 2016,
+  "rating": 8.5
+}]
