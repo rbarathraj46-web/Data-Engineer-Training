@@ -18,7 +18,9 @@ CREATE TABLE energy_logs (
     FOREIGN KEY (device_id) REFERENCES devices(device_id)
 );
 
-DELIMITER //
+select * from devices;
+select * from devices WHERE device_id = 3;
+
 CREATE PROCEDURE total_energy_per_room(IN date_val DATE)
 BEGIN
     SELECT r.room_name, SUM(e.energy_kwh) AS total_energy
@@ -28,4 +30,4 @@ BEGIN
     WHERE DATE(e.timestamp) = date_val
     GROUP BY r.room_name;
 END //
-DELIMITER ;
+
