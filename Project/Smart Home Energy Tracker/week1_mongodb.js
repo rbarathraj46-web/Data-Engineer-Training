@@ -1,3 +1,4 @@
+create Smarthome;
 use SmartHome;
 
 db.sensor_logs.insertMany([
