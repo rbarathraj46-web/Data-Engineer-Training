@@ -1,4 +1,3 @@
-# Week 3 PySpark Aggregation
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, hour, sum as spark_sum
 
