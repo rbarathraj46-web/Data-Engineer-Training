@@ -1,0 +1,5 @@
+appointment_id,patient_id,hospital_id,appointment_date,diagnosis,cost,status
+A1001,P001,H001,2024-01-10,Diabetes,400,Completed
+A1002,P002,H002,2024-01-11,Flu,250,Completed
+A1003,P003,H003,2024-01-11,Heart Disease,1000,Pending
+A1004,P004,H004,2024-01-12,Allergy,300,Completed

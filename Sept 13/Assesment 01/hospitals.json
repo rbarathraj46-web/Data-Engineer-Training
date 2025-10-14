@@ -1,0 +1,22 @@
+[
+    {
+        "hospital_id": "H001",
+        "hospital_name": "City Care",
+        "region": "North"
+    },
+    {
+        "hospital_id": "H002",
+        "hospital_name": "LifePlus",
+        "region": "South"
+    },
+    {
+        "hospital_id": "H003",
+        "hospital_name": "MediHope",
+        "region": "East"
+    },
+    {
+        "hospital_id": "H004",
+        "hospital_name": "CureWell",
+        "region": "West"
+    }
+]
