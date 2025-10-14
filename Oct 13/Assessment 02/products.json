@@ -1,0 +1,22 @@
+[
+    {
+        "product_id": "P001",
+        "product_name": "Laptop",
+        "category": "Electronics"
+    },
+    {
+        "product_id": "P002",
+        "product_name": "Mobile",
+        "category": "Electronics"
+    },
+    {
+        "product_id": "P003",
+        "product_name": "Book",
+        "category": "Stationery"
+    },
+    {
+        "product_id": "P004",
+        "product_name": "Headphones",
+        "category": "Accessories"
+    }
+]

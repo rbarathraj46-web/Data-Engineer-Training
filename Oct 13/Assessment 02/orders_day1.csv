@@ -1,0 +1,5 @@
+order_id,customer_id,product,quantity,price,status,order_date
+1001,1,Laptop,2,55000,Completed,2024-01-15
+1002,2,Mobile,3,25000,Completed,2024-01-16
+1003,3,Book,10,700,Pending,2024-01-16
+1004,1,Headphones,5,3000,Completed,2024-01-17
