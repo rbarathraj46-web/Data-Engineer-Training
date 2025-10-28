@@ -1,0 +1,25 @@
+# Week 5 Azure DevOps Pipeline
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.x'
+
+- script: |
+    pip install pandas numpy
+    python scripts/energy_report.py
+  displayName: 'Run Energy Report'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathToPublish: 'reports/'
+    artifactName: 'EnergyReport'
+
+- script: |
+    python scripts/check_threshold.py
+  displayName: 'Check Energy Threshold'
