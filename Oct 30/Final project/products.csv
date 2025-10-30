@@ -1,0 +1,6 @@
+product_id,product_name,category,price,supplier
+1,Laptop,Electronics,55000,TechWorld
+2,Smartphone,Electronics,25000,MobileHub
+3,Shampoo,Personal Care,350,GlowCorp
+4,Soap,Personal Care,50,GlowCorp
+5,Refrigerator,Appliances,40000,CoolTech
